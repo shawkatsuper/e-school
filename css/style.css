@@ -1,0 +1,298 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* ######### Header Section CSS Start #########  */
+.header{
+    width: 100%;
+    /* height: 100vh; */
+    background: #F0FFF0;
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 30px;
+    color: #000; 
+    transition: 1s;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover{
+    color:#21B573;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:focus{
+    color:#21B573;
+}
+.header .navbar .navbar-nav .nav-item .btn-success{
+    padding: 8px 20px;
+    border-radius: 35px;
+    border: 1px solid #21B573;
+    margin: 0px 0px 0px 30px;
+    background: #21B573;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    transition: 1s;
+}
+.header .navbar .navbar-nav .nav-item .btn-success:hover{
+    background-color: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.header .navbar .navbar-nav .nav-item .btn-success:focus{
+    background-color: transparent;
+    color: #21B573;
+    border: 2px solid #21B573;
+}
+/* ######### Header Section CSS End #########  */
+
+/* ######### Banner Part CSS Star #########  */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-banner{
+    width: 100%;
+    margin: 30px 0px 0px;
+}
+.inner-banner h4{
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #FD511A;
+    margin: 0px 0px 20px;
+}
+.inner-banner h1{
+    font-size: 48px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #000;
+    margin: 0px 0px 20px;
+}
+.inner-banner h1 span{
+    color: #21B573;
+}
+.inner-banner p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 500;
+    color: #000;
+    margin: 0px 0px 2dvb;
+}
+.inner-banner .btn-success{
+    padding: 10px 35px;
+    border-radius: 35px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin: 20px 0px 0px;
+    background: #21B573;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+}
+.inner-banner .btn-success:hover{
+    background-color: transparent;
+    color: #21B573;
+    /* border: 2px solid #21B573; */
+}
+.inner-banner .btn-success:focus{
+    background-color: transparent;
+    color: #21B573;
+    /* border: 2px solid #21B573; */
+}
+/* ######### Banner Part CSS End #########  */
+
+/* ######### Feature Section CSS Start #########  */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .inner-feature{
+    width: 100%;
+    padding: 40px 35px;
+    background-color: #F8FFFB;
+    text-align: center;
+    border-radius: 10px;
+    transition: 1s;
+}
+.feature .inner-feature:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.feature .inner-feature img{
+    width: 66px;
+    height: 86px;
+}
+.feature .inner-feature h4{
+    font-size: 24px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #413960;
+    margin: 20px 0px 0px;
+}
+.feature .inner-feature p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #413960;
+    margin: 0px 0px 0px;
+}
+/* ######### Feature Section CSS End #########  */
+
+/* ######### Courses Section CSS Start #########  */
+.course{
+    width: 100%;
+    padding: 10px 0px 80px;
+}
+.course .card{
+    padding: 25px 20px;
+    border:none;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1); 
+}
+.course .card .card-body{
+    padding: 20px 0px 0px;
+}
+.course .card .card-body .card-title{
+    font-size: 24px;
+    line-height: 1.3em;
+    font-weight: 500;
+    color: #413960;
+}
+.course .card .card-body .card-text{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color:  #585859;
+}
+.course .card .card-body .btn-success{
+    padding: 10px 30px;
+    margin: 10px 0px 25px;
+    border-radius: 35px;
+    border: 1px solid #21B573;
+    display: inline-block;
+    /* margin: 20px 0px 0px; */
+    background: #21B573;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    transition: 1s;
+}
+.course .card .card-body .btn-success:hover{
+    border: 1px solid #21B573;
+    background-color: transparent;
+    color:#21B573;
+}
+.course .card .card-body .btn-success:focus{
+    border: 1px solid #21B573;
+    background-color: transparent;
+    color:#21B573;
+}
+.course h1{
+    font-size: 35px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #000;
+    margin:0px 0px 65px;
+    text-align: center;
+}
+.card .card-body .info{
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #585859;
+}
+.card .card-body .info img{
+     width: 18px; 
+     height: auto; 
+     margin: 0px 10px 0px 0px;
+}
+.card .text-right{
+    text-align: right;
+}
+
+/* ######### Courses Section CSS End #########  */
+
+/* ######### Testimonial Section CSS Start #########  */
+.testimonial{
+    width: 100%;
+    padding:10px 0px 65px;
+}
+.testimonial h1{
+    font-size: 35px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #000;
+    margin:0px 0px 45px;
+    text-align: center;
+}
+.testimonial .client-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: 0px 0px 0px 20px;
+}
+.testimonial p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #000;
+    margin:20px 0px 0px;
+}
+/* ######### Testimonial Section CSS End #########  */
+
+/* ######### Footer Section CSS Start #########  */
+.footer{
+    width: 100%;
+    padding: 80px 0px 10px;
+    background-color: #282531;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #fff;
+}
+.footer .widget{
+    width: 100%;
+    padding: 0px 0px 60px; 
+}
+.footer .widget ul{
+    display: block;
+}
+.footer .widget ul li{
+    list-style: none;
+    display: block;
+}
+.footer .widget ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.7em;
+    color:#Fff;
+    font-weight: 400;
+    margin:0px 0px 5px;
+    transition: 1s;
+}
+.footer .widget ul li a:hover{
+    color:#21B573;
+}
+.footer .widget ul li a:focus{
+    color:#21B573;
+}
+.footer .copyright{
+    font-size: 16px;
+    line-height: 1.7em;
+    color:#CDCDCD;
+}
+/* ######### Footer Section CSS End #########  */
